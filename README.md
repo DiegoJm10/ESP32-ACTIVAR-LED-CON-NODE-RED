@@ -2,7 +2,7 @@
 
 ## Programación en WOkwi
 
-´´´
+```
 #include <WiFi.h>
 #include <PubSubClient.h>
 
@@ -80,4 +80,4 @@ void callback(char* topic, byte* payload, unsigned int length) {
     }
   }
 }
-´´´
+```
